@@ -74,5 +74,20 @@ void explain_vector(){
     cout<<*(it)<<" ";
 
 
+    vector<int>::iterator it=v.end();
+    vector<int>::iterator it =v.rend();
+    vector<int>::iterator it =v.rebegin();
+
+    cout<< v[0] << " "<<v.at(0);
+    cout<< v.back()<< " ";
+
+    for(vector<int>::iterator it=  begin();it!= v.end(); it++){
+        cout<<*(it)<<" ";
+
+    }
+    for( auto it =v.begin();it!=v.end(); it++){
+        cout<<*(it)<<" ";
+    }
+
 
 }
