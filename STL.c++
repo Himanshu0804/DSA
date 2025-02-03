@@ -89,5 +89,14 @@ void explain_vector(){
         cout<<*(it)<<" ";
     }
 
+    for(auto it:v){
+        cout<<it<<" ";
+    }
+    
+    v.erase(v.begin(+ 1));
+    v.erase(v.begin()+2, v.begin()+4);
+
+
+
 
 }
